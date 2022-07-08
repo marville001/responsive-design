@@ -13,16 +13,13 @@ section {
 .hero-left{
 	flex: 1;
 }
-
 .hero-left h1{
 	font-size: 50px;
 	font-weight: bolder;
 }
-
 .hero-left p{
 	font-size: 24px;
 }
-
 .hero-right{
 	flex: 1;
 }
@@ -37,19 +34,16 @@ section {
 	gap: 20px; 
 	margin-bottom: 50px;
 }
-
 .grids-one-item {
     border: 2px solid #eee;
 	padding: 20px;
 }
-
 .grids-one-item h2{
 	text-align: center;
 	font-weight: bolder;
 	margin-bottom: 50px;
 	font-size: 24px;
 }
-
 
 @media screen and (max-width: 900px) {
 	.hero{
@@ -65,12 +59,10 @@ section {
 	.grids-one{
 		grid-template-columns: 1fr;
 	}
-
 	.hero-left h1{
 		font-size: 40px;
 		text-align: center;
 	}
-
 	.hero-left p{
 		font-size: 20px;
 		text-align: center;
